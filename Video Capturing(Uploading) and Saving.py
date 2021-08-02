@@ -20,7 +20,7 @@ print(cap.isOpened())
 while (cap.isOpened()):
     ret, frame=cap.read()
     
-    #Reading method gives True as an output if the cap(VideoCapture) is available and storing it as a frame.
+    #Read() method gives True as an output if the cap(VideoCapture) is available and storing it as a frame.
     # ret= returning True or False 
     
     if ret == True:
