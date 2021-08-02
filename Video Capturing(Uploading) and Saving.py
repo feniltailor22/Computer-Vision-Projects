@@ -5,8 +5,12 @@ cap=cv2.VideoCapture(0);
 #cap=cv2.VideoCapture('Video Path');
 
 #Printing height and width of the video frame:
-print(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 print(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+print(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+
+#Setting up camera parameter(increasing hight and width of video)
+cap.set(3, 1208) #width(3)=1208
+cap.set(4, 720) #height(4)=720
 
 #Saving the captured video
 
