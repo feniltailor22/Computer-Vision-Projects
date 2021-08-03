@@ -4,10 +4,6 @@ img= cv2.imread('lena.jpg',1)
 
 #Drawing straight line in an image:
 img= cv2.line(img, pt1=(0,0), pt2=(255,255), color=(25,32,130), thickness=5)
-#(0,0)= starting point
-#(255,255)= ending point
-#(B,G,R)= color value
-#Line thickness= 5
 #If we want to draw a line with customized color then use rgb color picker from google and use it in BGR format
 
 #Drawing arrowed line in an image:
