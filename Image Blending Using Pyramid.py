@@ -2,7 +2,7 @@
 #(i) Load Two Images(same size) that you want to Blend.
 #(ii) Find the Gaussian Pyramids for both of the Images.
 #(iii) From Gaussian Pyramids, find their Laplacian Pyramids.
-#(iv) Now join the left half og Image-1 and right half of Image-2 in each level of Laplacian Pyramids.
+#(iv) Now join the left half of Image-1 and right half of Image-2 in each level of Laplacian Pyramids.
 #(v) Finally from this joint image pyramids, reconstruct the original image.
 
 import numpy as np
